@@ -1,0 +1,322 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.clr{
+    clear: both;
+}
+body{
+    font-family: Alegreya Sans,sans-serif,monospace;
+    line-height: 1.86em;
+
+}
+.navbar{
+    background-color:transparent;
+     
+}
+.logo{
+    width: 50%;
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+.logo img{
+    width: 22%;
+}
+
+.navbar ul{
+    width: 45%;
+    display: inline-block;
+
+}
+.navbar ul li{
+    width: 15%;
+    display: inline-block;
+    margin-top:2px ;
+    color: #fff;
+    font-size: 18px;
+    
+    
+}
+
+.home{
+    background-image: url(imgs/drew-coffman-1872.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+    overflow: auto;
+}
+.home-content{
+    color: #ccc;
+    font-size: 24px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 160px;
+}
+.home-content h1{
+    font-family: Alegreya,serif,monospace;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+.home-content p{
+    margin-bottom: 50px;
+}
+.btn{
+    background-color: #8e7754;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    font-family: Alegreya Sans,sans-serif,monospace;
+    color: #fff;
+    border-radius: 5px;
+}
+.btn-c{
+    padding: 15px 20px;
+    font-size: 16px;
+    font-family: Alegreya Sans,sans-serif,monospace;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+.who{
+    width: 100%;
+    overflow: auto;
+}
+.who-img{
+    width: 45%;
+    margin: 40px 20px 20px 40px;
+    text-align: center;
+    float: left;
+   }
+.who-img img{
+    width: 90%;
+    margin: 10px;
+}
+.who-content{
+    width: 45%;
+    text-align: center;
+    padding: 20px 0px;
+    color: #686868;
+   margin: 90px 10px;
+   float: left;
+   
+   
+   
+  }
+.who-content img{
+width: 5%;
+border-radius: 50%;
+border: 1px solid black;
+}
+.who ul{
+    padding: 20px 0px;
+}
+.who ul li{
+    list-style-type: none;
+    text-align: left;
+
+}
+.who-content h2{
+    color: black;
+    margin: 20px 0px;
+    font-family: Alegreya,serif,monospace;
+    text-transform: capitalize;
+}
+.location{
+    background-color:  #f8f8f8;
+    text-align: center;
+    overflow: auto;
+    width: 100%;
+    padding: 30px 0px;
+    height: auto;
+    padding: 40px 0;
+}
+.location-content{
+    width: 45%;
+    padding: 15px 20px 0px 50px;
+    margin-top: 50px;
+    text-align: center;
+    float: left;
+    color: #686868;
+    
+   
+}
+.location-content h2{
+    color: #000;
+    padding: 30px;
+    font-family: Alegreya,serif,monospace;
+    text-transform: capitalize;
+}
+
+.location-img{
+    
+    width: 45%;
+    padding: 15px 20px 0px;
+    text-align: center;
+    float: left;
+    margin: 20px 10px 20px 0px;
+}
+
+.location-img img{
+    width: 85%;
+
+}
+.baking{
+    color: #686868;
+    margin-bottom: 20px;
+    overflow: auto;
+    text-align: center;
+    
+    padding: 40px 0px ;
+    padding-left: 30px;
+}
+.baking h2{
+    margin-bottom: 30px;
+    color: #303030;
+    text-align: center;
+}
+
+.baking-collection{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding: auto;
+}
+.baking-collection h4{
+    color: black; 
+    text-transform: capitalize;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.test{
+    float: left;
+    width: 30.5%;
+    padding: 5px 10px;
+    text-align: center;
+}
+.test img{
+    width: 100%;
+}
+.Information{
+    background-color:#f8f8f8;
+    overflow: auto;
+    text-align: center;
+    padding: 40px;
+    color:#686868;
+}
+.Information-contact{
+    padding: 15px 20px 0;
+    margin-top: 50px;
+    width: 50%;
+    float: left;
+
+}
+.information-img{
+    
+    width: 40%;
+    float: left;
+    text-align: center;
+    padding: 15px 20px 0;
+    margin-top: 100px;
+}
+.information-img img{
+    width:auto;
+}
+
+.details{
+    text-align: left;
+}
+.details img{
+    width: 5%;
+    border-radius: 50%;
+    border: 0px;
+
+}
+.details ul li{
+    list-style-type: none;
+}
+.Information-contact h2{
+    color: #303030;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.details p{
+    margin-bottom: 20px;
+}
+.footer{
+    background-color:#403d38;
+    overflow: auto;
+    padding: 30px 0px;
+    
+    
+}
+.containers{
+    
+    width: 90%;
+    margin: auto;
+    display: flex;
+
+}
+.test1{
+    width: 25%;
+    float: left;
+    padding: 7px;
+    font-size: 18px;
+    color: #969696;
+    margin-bottom: 20px;
+}
+.test1 h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 300;
+    margin: 10px 0px;
+    text-transform: capitalize;
+}
+.footer ul li{
+    list-style-type: none; 
+    text-align: left;
+    border-bottom: 1px solid #303030;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.adress img {
+    width: 10%;
+    border-radius: 50%;
+    border: none;
+}
+.finally{
+    background-color:#353330;
+    text-align: center;
+    margin: auto;
+    padding: 30px 0px;
+    
+}
+.finallyp{
+    
+    width: 20%;
+    padding: 50px 0 20px;
+    margin: auto;
+}
+.finallyp img{
+    width:100%;
+
+}
+.text2{
+    font-size: 14px;
+    color: #969696;
+}
+.social{
+    padding: 20px 0 50px;
+
+}
+
+.social img{
+     width: 3%;
+     border-radius: 50%;
+     border:none;
+
+}
